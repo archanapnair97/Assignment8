@@ -1,0 +1,166 @@
+/*Author :Archana P Nair
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-color: #333;
+	height: 50vh;
+	position: relative;
+	color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.header h1{
+	font-size: 50px;
+	padding:10px; 
+}
+.header p{
+	font-size: 30px;
+	padding:10px; 
+}
+.header a{
+	text-decoration: none;
+	border:1px solid #00f;
+	padding: 15px;
+	border-radius: 7px;
+	color: #fff;
+	width: 80px;
+	display: flex;
+	align-content: center;
+}
+.header a:hover{
+	background-color: #00f;
+	color: #fff;
+}
+.row{
+	height: 30vh;
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.row p{
+	font-size: 25px;
+}
+.row h2{
+	font-size: 35px;
+}
+.main{
+	height: 50vh;
+	background-color: #333;
+	display: inline-flex;
+	padding: 20px;
+}
+
+.col{
+	background-color: #fff;
+	height: 40vh;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+	padding: 20px;
+	border-radius: 7px;
+	
+}
+.col img{
+	width: 100%;
+	display: flex;
+	height: auto;
+	border-radius: 7px;
+}
+.col p{
+    font-size: 20px;
+}
+.col h3{
+	font-size: 30px;
+}
+.footer{
+	height: 60vh;
+	display: flex;
+
+}
+.first{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #00f;
+}
+.first p{
+	font-size: 20px;
+}
+.first h4{
+     font-size: 30px;
+}
+.second{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #333;
+	color: #fff
+}
+.second p{
+	font-size: 20px;
+}
+.second h4{
+     font-size: 30px;
+}
+/*media query*/
+@media only screen and (max-width: 576px){
+	.header{
+		height: 100vh;
+		width: 100%;
+	}
+	.row{
+    	font-size: 30px;
+    	width: 100%;
+    	height: 70vh;
+    }
+    
+    .main{
+	width: 89vw;
+	display: flex;
+	flex-direction: column;
+	height: 150vh;
+
+	}
+    .col {
+	width: 80%;
+	margin: 10px;
+}
+  .footer{
+  	display: block;
+  	height: 100vh;
+  }  
+  .first{
+  	height: 50vh;
+  	
+  }
+  .first p{
+  	font-size: 25px;
+  }
+  .second{
+  	height: 50vh;
+  	
+  }
+  .second p{
+  	font-size: 25px;
+  }
+
+}
